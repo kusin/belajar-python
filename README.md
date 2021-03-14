@@ -1,4 +1,4 @@
-<h1>This is repository for learn python to machine learning and deep learning.</h1>
+<h2>This is repository for learn python to machine learning and deep learning.</h2>
 <ul>
 	<li>Week 1 => Introduction python with Jupyter-lab</li>
 	<li>Week 2 => Data visualization using matplotlib and seaborn libraries.</li>
