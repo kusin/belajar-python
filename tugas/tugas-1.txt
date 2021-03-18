@@ -1,0 +1,65 @@
+Format pengumpulan tugas
+	Tugas1_NIM_Nama_.rar
+	Dalam rar terdapat file
+		Tugas1_NIM_Nama_.ipynb
+		File_csv_bangunData1.csv
+		File_csv_bangunData1.csv
+		.....
+		File_csv_bangunData5.csv
+		
+Tugas 1 – Pengenalan dasar-dasar python.
+	Buatlah program untuk menghitung luas 5 buah bangun datar.
+	Dimana inputan berasal dari keyboard.
+	Lalu keluaran sistem akan disimpan ke dalam format csv.
+	Berikut peusodo-code:
+
+# PROGRAM Bangun Datar
+pustaka/library yang mau digunakan
+
+# DEKLARASI variabel-variabel
+variabel-variabel yang mau digunakan
+
+# DEKLARASI fungsi-fungsi
+function bangunData-ke1(parameter inputan1, parameter inputan2, parameter inputan-N){
+	# INPUT
+	read(parameter inputan1)
+	read(parameter inputan2)
+	read(parameter inputan-N)
+	
+	# PROSES
+	# Rumus menghitung luas
+	hasil = parameter inputan1 + parameter inputan2 + parameter-N
+	
+	# OUTPUT
+	if(Jika file csvnya belum ada){
+		create_new_csv_file("Nama_file.csv")
+	}
+	else{
+		// Jika file csv sudah ada dan sudah berisi beberapa data.
+		insert_data_to_csv("Nama_file.csv")
+	}
+}
+
+# ALGORITMA
+write("Pilihan Menu")
+write("1. bangunData-ke1")
+write("2. bangunData-ke2")
+write("3. bangunData-ke3")
+write("4. bangunData-ke4")
+write("5. bangunData-ke5")
+write("Masukan pilihan menu")
+read("pilihan")
+
+if(pilihan == 1){
+	bangunData-ke1()
+}
+else if(pilihan == 2){
+	bangunData-ke2()
+}
+........
+else{
+	write("pilihan salah")
+}
+
+# Visualisasi OUTPUT
+Tampilkan file csv ke dalam bentuk pandas
